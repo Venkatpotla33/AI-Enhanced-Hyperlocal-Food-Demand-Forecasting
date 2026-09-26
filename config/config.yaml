@@ -1,0 +1,124 @@
+# ==========================================
+# Project Configuration
+# AI-Enhanced Hyperlocal Food Demand Forecasting
+# ==========================================
+
+project:
+  name: "AI-Enhanced Hyperlocal Food Demand Forecasting"
+  title: "AI-Enhanced Hyperlocal Food Demand Forecasting and Surge Intelligence Using Machine Learning, Deep Learning, and Time-Series Foundation Models"
+
+# ==========================================
+# Study Scope
+# ==========================================
+
+study:
+  city: "Hyderabad"
+  state: "Telangana"
+  country: "India"
+
+  start_date: "2023-01-01"
+  end_date: "2026-08-31"
+
+  timezone: "Asia/Kolkata"
+
+# ==========================================
+# Data Configuration
+# ==========================================
+
+data:
+  order_granularity: "transaction"
+  forecasting_granularity: "hourly"
+  geographic_granularity: "zone"
+
+  synthetic_orders: true
+
+  contextual_data:
+    weather: true
+    rainfall: true
+    public_holidays: true
+    festivals: true
+    ipl: true
+    local_events: true
+    sporting_events: true
+
+# ==========================================
+# Synthetic Order Generation
+# ==========================================
+
+synthetic_generation:
+
+  include_realistic_timestamps: true
+
+  demand_components:
+    baseline_demand: true
+    hourly_seasonality: true
+    weekly_seasonality: true
+    zone_effect: true
+    restaurant_effect: true
+    seasonal_variation: true
+    controlled_demand_spikes: true
+    stochastic_noise: true
+
+# ==========================================
+# Forecasting Configuration
+# ==========================================
+
+forecasting:
+
+  target_variable: "order_count"
+
+  horizon_hours: 24
+
+  models:
+    classical:
+      - "SARIMA"
+      - "Holt-Winters"
+
+    machine_learning:
+      - "Prophet"
+      - "XGBoost"
+
+    deep_learning:
+      - "LSTM"
+
+    foundation:
+      - "Chronos-2"
+      - "TimesFM-2.0"
+
+# ==========================================
+# Evaluation Configuration
+# ==========================================
+
+evaluation:
+
+  method: "rolling_origin_backtesting"
+
+  metrics:
+    - "MAE"
+    - "RMSE"
+    - "MAPE"
+
+# ==========================================
+# AI Surge Intelligence
+# ==========================================
+
+ai_layer:
+
+  enabled: true
+
+  capabilities:
+    surge_detection: true
+    context_interpretation: true
+    forecast_explanation: true
+    model_consensus: true
+    confidence_analysis: true
+    operational_insights: true
+
+# ==========================================
+# Application
+# ==========================================
+
+application:
+
+  streamlit: true
+  power_bi: true

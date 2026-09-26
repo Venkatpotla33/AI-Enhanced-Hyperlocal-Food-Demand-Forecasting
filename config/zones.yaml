@@ -1,0 +1,34 @@
+# ==========================================
+# Hyderabad Hyperlocal Zone Configuration
+# ==========================================
+
+city: "Hyderabad"
+state: "Telangana"
+country: "India"
+
+zones:
+
+  - zone_id: "Z01"
+    zone_name: "Kondapur"
+    zone_type: "IT_Residential"
+    demand_profile: "high"
+
+  - zone_id: "Z02"
+    zone_name: "Hitech City"
+    zone_type: "IT_Commercial"
+    demand_profile: "very_high"
+
+  - zone_id: "Z03"
+    zone_name: "Gachibowli"
+    zone_type: "IT_Residential"
+    demand_profile: "very_high"
+
+  - zone_id: "Z04"
+    zone_name: "Madhapur"
+    zone_type: "Commercial_Residential"
+    demand_profile: "high"
+
+  - zone_id: "Z05"
+    zone_name: "Kukatpally"
+    zone_type: "Residential_Commercial"
+    demand_profile: "high"

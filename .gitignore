@@ -1,0 +1,165 @@
+# ==========================================
+# AI-Enhanced Hyperlocal Food Demand Forecasting
+# Git Ignore Configuration
+# ==========================================
+
+
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+
+.venv/
+venv/
+env/
+ENV/
+
+
+# ==========================================
+# Environment Variables / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+
+.ipynb_checkpoints/
+
+
+# ==========================================
+# Large / Generated Data
+# ==========================================
+
+data/raw/*
+data/interim/*
+data/processed/*
+
+# Keep raw-data directory structure
+!data/raw/*/
+!data/raw/*/.gitkeep
+
+# Keep interim and processed directory structure
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+
+# ==========================================
+# Generated Models
+# ==========================================
+
+models/*
+!models/.gitkeep
+
+# Common model files
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+
+
+# ==========================================
+# Generated Results
+# ==========================================
+
+results/*
+!results/*/
+!results/**/.gitkeep
+
+
+# ==========================================
+# Logs
+# ==========================================
+
+*.log
+logs/
+
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/
+.idea/
+
+# VS Code local history
+.history/
+
+
+# ==========================================
+# Operating System
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+
+# ==========================================
+# Temporary Files
+# ==========================================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+
+# ==========================================
+# Python Distribution / Build Files
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+
+# ==========================================
+# Testing / Coverage
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+
+# ==========================================
+# Type Checking / Linting Cache
+# ==========================================
+
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+
+# ==========================================
+# OS / Application Cache
+# ==========================================
+
+.cache/
