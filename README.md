@@ -122,3 +122,20 @@ The final zone configuration will be maintained in:
 
 ```text
 config/zones.yaml
+
+## 📌 Project Development Progress
+
+| Phase | Description | Status |
+|---|---|---|
+| Phase 01 | Project Framework & Repository Setup | ✅ Completed |
+| Phase 02 | Synthetic Raw Order Data Generation | 🟡 Not Started |
+| Phase 03 | Data Quality & Exploratory Analysis | ⏳ Upcoming |
+| Phase 04 | Contextual Data Collection & Integration | ⏳ Upcoming |
+| Phase 05 | Feature Engineering | ⏳ Upcoming |
+| Phase 06 | Forecasting Models | ⏳ Upcoming |
+| Phase 07 | Model Evaluation & Backtesting | ⏳ Upcoming |
+| Phase 08 | AI Surge Intelligence Layer | ⏳ Upcoming |
+| Phase 09 | Power BI Dashboard | ⏳ Upcoming |
+| Phase 10 | Streamlit Application | ⏳ Upcoming |
+| Phase 11 | Research Analysis & Conclusions | ⏳ Upcoming |
+| Phase 12 | Final Documentation | ⏳ Upcoming |
