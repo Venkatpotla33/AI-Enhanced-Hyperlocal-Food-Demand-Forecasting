@@ -120,15 +120,14 @@ Example zones include:
 
 The final zone configuration will be maintained in:
 
-```text
-config/zones.yaml
+
 
 ## 📌 Project Development Progress
 
 | Phase | Description | Status |
 |---|---|---|
 | Phase 01 | Project Framework & Repository Setup | ✅ Completed |
-| Phase 02 | Synthetic Raw Order Data Generation | 🟡 Not Started |
+| Phase 02 | Synthetic Raw Order Data Generation | 🟢 In Progress |
 | Phase 03 | Data Quality & Exploratory Analysis | ⏳ Upcoming |
 | Phase 04 | Contextual Data Collection & Integration | ⏳ Upcoming |
 | Phase 05 | Feature Engineering | ⏳ Upcoming |
