@@ -118,7 +118,7 @@ Example zones include:
 - Madhapur
 - Kukatpally
 
-The final zone configuration will be maintained in:
+The final zone configuration will be maintained in: [text](config/zones.yaml)
 
 
 
