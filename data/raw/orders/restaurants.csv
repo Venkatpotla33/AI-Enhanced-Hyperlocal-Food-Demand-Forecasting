@@ -1,0 +1,221 @@
+restaurant_id,restaurant_name,zone_id,zone_name,zone_type,restaurant_category,base_popularity,average_order_value
+Z01_R001,Express Bites 001,Z01,Kondapur,IT_Residential,Bakery,0.666,122.27
+Z01_R002,Express House 002,Z01,Kondapur,IT_Residential,Chinese,0.571,240.27
+Z01_R003,Grand House 003,Z01,Kondapur,IT_Residential,Bakery,0.654,248.13
+Z01_R004,Hyderabad House 004,Z01,Kondapur,IT_Residential,Healthy Food,0.385,326.58
+Z01_R005,Daily Kitchen 005,Z01,Kondapur,IT_Residential,Chinese,0.922,242.82
+Z01_R006,Street Point 006,Z01,Kondapur,IT_Residential,Cafe,0.32,209.65
+Z01_R007,Daily Bites 007,Z01,Kondapur,IT_Residential,Burgers,0.786,239.52
+Z01_R008,Spice Foods 008,Z01,Kondapur,IT_Residential,Biryani,0.446,470.41
+Z01_R009,Royal Restaurant 009,Z01,Kondapur,IT_Residential,Pizza,0.515,361.15
+Z01_R010,Urban Restaurant 010,Z01,Kondapur,IT_Residential,South Indian,0.77,141.33
+Z01_R011,Kitchen Kitchen 011,Z01,Kondapur,IT_Residential,Pizza,0.871,491.49
+Z01_R012,Home Foods 012,Z01,Kondapur,IT_Residential,Desserts,0.277,243.33
+Z01_R013,Flavours Treats 013,Z01,Kondapur,IT_Residential,South Indian,0.645,246.97
+Z01_R014,Fresh Express 014,Z01,Kondapur,IT_Residential,Healthy Food,0.605,465.64
+Z01_R015,Hyderabad Treats 015,Z01,Kondapur,IT_Residential,Chinese,0.312,370.23
+Z01_R016,Urban Cafe 016,Z01,Kondapur,IT_Residential,Chinese,0.688,388.73
+Z01_R017,Taste Treats 017,Z01,Kondapur,IT_Residential,South Indian,0.337,207.43
+Z01_R018,Fresh Cafe 018,Z01,Kondapur,IT_Residential,Pizza,0.561,315.06
+Z01_R019,Home Treats 019,Z01,Kondapur,IT_Residential,Bakery,0.47,153.4
+Z01_R020,Street Hub 020,Z01,Kondapur,IT_Residential,Bakery,0.516,114.28
+Z01_R021,Spice Corner 021,Z01,Kondapur,IT_Residential,Cafe,0.467,368.74
+Z01_R022,Home Treats 022,Z01,Kondapur,IT_Residential,Burgers,0.74,252.89
+Z01_R023,Fresh Kitchen 023,Z01,Kondapur,IT_Residential,Cafe,0.314,215.88
+Z01_R024,Kitchen Restaurant 024,Z01,Kondapur,IT_Residential,Chinese,0.637,401.89
+Z01_R025,Royal Express 025,Z01,Kondapur,IT_Residential,Burgers,0.461,252.29
+Z01_R026,Taste Foods 026,Z01,Kondapur,IT_Residential,Pizza,0.518,335.05
+Z01_R027,City Hub 027,Z01,Kondapur,IT_Residential,Bakery,0.642,191.77
+Z01_R028,Grand Bites 028,Z01,Kondapur,IT_Residential,Chinese,0.415,381.15
+Z01_R029,Daily Foods 029,Z01,Kondapur,IT_Residential,Healthy Food,0.502,328.53
+Z01_R030,Spice Point 030,Z01,Kondapur,IT_Residential,Pizza,0.565,337.73
+Z01_R031,Hyderabad House 031,Z01,Kondapur,IT_Residential,Desserts,0.365,140.91
+Z01_R032,Kitchen Treats 032,Z01,Kondapur,IT_Residential,North Indian,0.463,349.41
+Z01_R033,Food Foods 033,Z01,Kondapur,IT_Residential,Burgers,0.62,341.03
+Z01_R034,Grand Bites 034,Z01,Kondapur,IT_Residential,Healthy Food,0.194,498.84
+Z01_R035,Hyderabad Treats 035,Z01,Kondapur,IT_Residential,Cafe,0.236,408.23
+Z01_R036,Grand Bites 036,Z01,Kondapur,IT_Residential,South Indian,0.476,276.79
+Z01_R037,City Foods 037,Z01,Kondapur,IT_Residential,Bakery,0.604,168.04
+Z01_R038,Express Bites 038,Z01,Kondapur,IT_Residential,North Indian,0.92,302.51
+Z01_R039,Grand House 039,Z01,Kondapur,IT_Residential,Cafe,0.494,378.59
+Z01_R040,Street Point 040,Z01,Kondapur,IT_Residential,Bakery,0.252,159.69
+Z02_R041,Fresh Hub 041,Z02,Hitech City,IT_Commercial,Healthy Food,0.19,259.67
+Z02_R042,Home Point 042,Z02,Hitech City,IT_Commercial,Cafe,0.484,436.05
+Z02_R043,Taste Kitchen 043,Z02,Hitech City,IT_Commercial,Biryani,0.872,417.65
+Z02_R044,Home Bites 044,Z02,Hitech City,IT_Commercial,South Indian,0.225,333.69
+Z02_R045,Home Express 045,Z02,Hitech City,IT_Commercial,Chinese,0.471,195.64
+Z02_R046,Taste House 046,Z02,Hitech City,IT_Commercial,South Indian,0.593,139.7
+Z02_R047,Spice Treats 047,Z02,Hitech City,IT_Commercial,Cafe,0.398,379.75
+Z02_R048,Spice Bites 048,Z02,Hitech City,IT_Commercial,Desserts,0.744,337.78
+Z02_R049,Food Cafe 049,Z02,Hitech City,IT_Commercial,Cafe,0.726,411.73
+Z02_R050,Express Cafe 050,Z02,Hitech City,IT_Commercial,Cafe,0.261,376.58
+Z02_R051,Street Treats 051,Z02,Hitech City,IT_Commercial,Fast Food,0.634,249.75
+Z02_R052,Grand Corner 052,Z02,Hitech City,IT_Commercial,Pizza,0.677,425.24
+Z02_R053,Urban Restaurant 053,Z02,Hitech City,IT_Commercial,South Indian,0.489,177.02
+Z02_R054,Royal Express 054,Z02,Hitech City,IT_Commercial,Biryani,0.335,414.14
+Z02_R055,Express Treats 055,Z02,Hitech City,IT_Commercial,Chinese,0.804,181.94
+Z02_R056,Home Kitchen 056,Z02,Hitech City,IT_Commercial,Biryani,0.284,295.55
+Z02_R057,Royal Bites 057,Z02,Hitech City,IT_Commercial,Pizza,0.401,278.34
+Z02_R058,Grand Hub 058,Z02,Hitech City,IT_Commercial,Bakery,0.651,197.08
+Z02_R059,Royal Corner 059,Z02,Hitech City,IT_Commercial,Healthy Food,0.753,372.86
+Z02_R060,Urban Treats 060,Z02,Hitech City,IT_Commercial,Burgers,0.828,231.41
+Z02_R061,Food Corner 061,Z02,Hitech City,IT_Commercial,Burgers,0.372,275.66
+Z02_R062,Street House 062,Z02,Hitech City,IT_Commercial,Biryani,0.794,442.21
+Z02_R063,Fresh House 063,Z02,Hitech City,IT_Commercial,Biryani,0.549,352.87
+Z02_R064,Grand Corner 064,Z02,Hitech City,IT_Commercial,Chinese,0.555,231.73
+Z02_R065,City Corner 065,Z02,Hitech City,IT_Commercial,North Indian,0.483,293.91
+Z02_R066,Urban Corner 066,Z02,Hitech City,IT_Commercial,Chinese,0.793,416.11
+Z02_R067,Street Point 067,Z02,Hitech City,IT_Commercial,Cafe,0.213,179.37
+Z02_R068,Home Cafe 068,Z02,Hitech City,IT_Commercial,Biryani,0.27,539.77
+Z02_R069,Taste Cafe 069,Z02,Hitech City,IT_Commercial,North Indian,0.823,289.73
+Z02_R070,Spice Foods 070,Z02,Hitech City,IT_Commercial,Burgers,0.659,423.66
+Z02_R071,City Corner 071,Z02,Hitech City,IT_Commercial,Biryani,0.881,545.15
+Z02_R072,Express Point 072,Z02,Hitech City,IT_Commercial,Fast Food,0.745,255.75
+Z02_R073,Spice Cafe 073,Z02,Hitech City,IT_Commercial,Bakery,0.454,243.68
+Z02_R074,Hyderabad Express 074,Z02,Hitech City,IT_Commercial,Fast Food,0.767,204.43
+Z02_R075,Fresh Kitchen 075,Z02,Hitech City,IT_Commercial,Cafe,0.724,168.29
+Z02_R076,Grand Point 076,Z02,Hitech City,IT_Commercial,Biryani,0.382,412.78
+Z02_R077,Grand House 077,Z02,Hitech City,IT_Commercial,North Indian,0.511,195.36
+Z02_R078,Urban Treats 078,Z02,Hitech City,IT_Commercial,North Indian,0.357,198.5
+Z02_R079,Home Express 079,Z02,Hitech City,IT_Commercial,Chinese,0.841,289.02
+Z02_R080,Hyderabad Express 080,Z02,Hitech City,IT_Commercial,Chinese,0.93,336.31
+Z02_R081,Daily Express 081,Z02,Hitech City,IT_Commercial,South Indian,0.924,216.42
+Z02_R082,City Cafe 082,Z02,Hitech City,IT_Commercial,Cafe,0.304,244.91
+Z02_R083,Royal Bites 083,Z02,Hitech City,IT_Commercial,Bakery,0.651,243.24
+Z02_R084,Street Bites 084,Z02,Hitech City,IT_Commercial,Burgers,0.912,215.34
+Z02_R085,Kitchen House 085,Z02,Hitech City,IT_Commercial,Desserts,0.434,192.72
+Z02_R086,Daily House 086,Z02,Hitech City,IT_Commercial,Biryani,0.726,371.23
+Z02_R087,Grand Bites 087,Z02,Hitech City,IT_Commercial,South Indian,0.318,243.66
+Z02_R088,Home House 088,Z02,Hitech City,IT_Commercial,North Indian,0.643,431.98
+Z02_R089,Spice Corner 089,Z02,Hitech City,IT_Commercial,Chinese,0.527,279.77
+Z02_R090,Daily Treats 090,Z02,Hitech City,IT_Commercial,Cafe,0.54,361.06
+Z03_R091,Flavours Point 091,Z03,Gachibowli,IT_Residential,Cafe,0.684,152.35
+Z03_R092,Urban Hub 092,Z03,Gachibowli,IT_Residential,Fast Food,0.551,382.94
+Z03_R093,Urban Point 093,Z03,Gachibowli,IT_Residential,Fast Food,0.736,178.86
+Z03_R094,Daily Cafe 094,Z03,Gachibowli,IT_Residential,North Indian,0.64,253.53
+Z03_R095,Street Bites 095,Z03,Gachibowli,IT_Residential,Pizza,0.161,331.44
+Z03_R096,Home Kitchen 096,Z03,Gachibowli,IT_Residential,Cafe,0.599,296.56
+Z03_R097,Flavours Bites 097,Z03,Gachibowli,IT_Residential,South Indian,0.74,265.89
+Z03_R098,Kitchen Hub 098,Z03,Gachibowli,IT_Residential,Biryani,0.727,221.17
+Z03_R099,Spice Corner 099,Z03,Gachibowli,IT_Residential,Bakery,0.732,295.96
+Z03_R100,Grand Kitchen 100,Z03,Gachibowli,IT_Residential,Cafe,0.7,361.7
+Z03_R101,Home Hub 101,Z03,Gachibowli,IT_Residential,South Indian,0.438,137.31
+Z03_R102,Fresh Express 102,Z03,Gachibowli,IT_Residential,Cafe,0.605,160.81
+Z03_R103,Spice Kitchen 103,Z03,Gachibowli,IT_Residential,Cafe,0.475,194.43
+Z03_R104,Home Kitchen 104,Z03,Gachibowli,IT_Residential,Fast Food,0.715,241.16
+Z03_R105,Royal Treats 105,Z03,Gachibowli,IT_Residential,Pizza,0.618,334.03
+Z03_R106,Grand Foods 106,Z03,Gachibowli,IT_Residential,South Indian,0.768,201.35
+Z03_R107,Home Cafe 107,Z03,Gachibowli,IT_Residential,Healthy Food,0.473,424.84
+Z03_R108,Kitchen Hub 108,Z03,Gachibowli,IT_Residential,North Indian,0.599,443.58
+Z03_R109,Express Restaurant 109,Z03,Gachibowli,IT_Residential,Burgers,0.479,186.69
+Z03_R110,Flavours Cafe 110,Z03,Gachibowli,IT_Residential,Burgers,0.892,396.6
+Z03_R111,Express House 111,Z03,Gachibowli,IT_Residential,Fast Food,0.898,189.8
+Z03_R112,Flavours Corner 112,Z03,Gachibowli,IT_Residential,Burgers,0.22,415.49
+Z03_R113,Home Corner 113,Z03,Gachibowli,IT_Residential,Chinese,0.332,233.88
+Z03_R114,Kitchen Cafe 114,Z03,Gachibowli,IT_Residential,Pizza,0.315,372.08
+Z03_R115,Royal Foods 115,Z03,Gachibowli,IT_Residential,Chinese,0.123,186.39
+Z03_R116,Urban Bites 116,Z03,Gachibowli,IT_Residential,Pizza,0.796,361.44
+Z03_R117,Food Treats 117,Z03,Gachibowli,IT_Residential,Pizza,0.76,506.59
+Z03_R118,Hyderabad House 118,Z03,Gachibowli,IT_Residential,Cafe,0.731,249.34
+Z03_R119,City Kitchen 119,Z03,Gachibowli,IT_Residential,Fast Food,0.66,194.64
+Z03_R120,Fresh Restaurant 120,Z03,Gachibowli,IT_Residential,South Indian,0.638,257.21
+Z03_R121,Grand House 121,Z03,Gachibowli,IT_Residential,Burgers,0.891,343.68
+Z03_R122,Royal Bites 122,Z03,Gachibowli,IT_Residential,Burgers,0.504,422.87
+Z03_R123,Hyderabad Point 123,Z03,Gachibowli,IT_Residential,Biryani,0.281,453.9
+Z03_R124,Express Treats 124,Z03,Gachibowli,IT_Residential,Cafe,0.691,356.06
+Z03_R125,Urban Treats 125,Z03,Gachibowli,IT_Residential,Chinese,0.586,278.34
+Z03_R126,Street House 126,Z03,Gachibowli,IT_Residential,Pizza,0.26,499.26
+Z03_R127,Street Foods 127,Z03,Gachibowli,IT_Residential,Fast Food,0.416,276.78
+Z03_R128,City Point 128,Z03,Gachibowli,IT_Residential,Pizza,0.706,410.96
+Z03_R129,Street Foods 129,Z03,Gachibowli,IT_Residential,North Indian,0.925,231.8
+Z03_R130,Spice Express 130,Z03,Gachibowli,IT_Residential,Bakery,0.482,249.63
+Z03_R131,Grand Kitchen 131,Z03,Gachibowli,IT_Residential,Healthy Food,0.4,290.28
+Z03_R132,Food Express 132,Z03,Gachibowli,IT_Residential,Fast Food,0.784,221.73
+Z03_R133,Taste Corner 133,Z03,Gachibowli,IT_Residential,Healthy Food,0.438,396.41
+Z03_R134,Grand Corner 134,Z03,Gachibowli,IT_Residential,Desserts,0.146,275.39
+Z03_R135,City Point 135,Z03,Gachibowli,IT_Residential,North Indian,0.708,357.89
+Z04_R136,Fresh House 136,Z04,Madhapur,Commercial_Residential,Bakery,0.621,226.59
+Z04_R137,Royal Cafe 137,Z04,Madhapur,Commercial_Residential,Chinese,0.634,361.65
+Z04_R138,Royal Corner 138,Z04,Madhapur,Commercial_Residential,North Indian,0.791,186.59
+Z04_R139,Urban Corner 139,Z04,Madhapur,Commercial_Residential,Healthy Food,0.658,454.92
+Z04_R140,Daily Cafe 140,Z04,Madhapur,Commercial_Residential,Burgers,0.638,419.26
+Z04_R141,Royal Hub 141,Z04,Madhapur,Commercial_Residential,Burgers,0.546,313.48
+Z04_R142,Home House 142,Z04,Madhapur,Commercial_Residential,Bakery,0.412,237.52
+Z04_R143,Kitchen Point 143,Z04,Madhapur,Commercial_Residential,Burgers,0.159,239.09
+Z04_R144,Royal House 144,Z04,Madhapur,Commercial_Residential,Desserts,0.679,131.55
+Z04_R145,Taste Treats 145,Z04,Madhapur,Commercial_Residential,Desserts,0.633,150.67
+Z04_R146,Daily Restaurant 146,Z04,Madhapur,Commercial_Residential,Cafe,0.374,446.37
+Z04_R147,Express Point 147,Z04,Madhapur,Commercial_Residential,Desserts,0.216,260.91
+Z04_R148,Grand Corner 148,Z04,Madhapur,Commercial_Residential,Burgers,0.547,404.25
+Z04_R149,Taste Corner 149,Z04,Madhapur,Commercial_Residential,North Indian,0.735,380.79
+Z04_R150,Flavours Treats 150,Z04,Madhapur,Commercial_Residential,Fast Food,0.71,337.94
+Z04_R151,Grand Corner 151,Z04,Madhapur,Commercial_Residential,Fast Food,0.334,341.45
+Z04_R152,Taste House 152,Z04,Madhapur,Commercial_Residential,Bakery,0.449,147.85
+Z04_R153,Fresh Restaurant 153,Z04,Madhapur,Commercial_Residential,Fast Food,0.346,208.62
+Z04_R154,Spice Cafe 154,Z04,Madhapur,Commercial_Residential,Cafe,0.24,174.17
+Z04_R155,Express Cafe 155,Z04,Madhapur,Commercial_Residential,Burgers,0.913,367.37
+Z04_R156,Fresh Point 156,Z04,Madhapur,Commercial_Residential,South Indian,0.437,215.42
+Z04_R157,Royal Foods 157,Z04,Madhapur,Commercial_Residential,Desserts,0.796,215.63
+Z04_R158,Daily Kitchen 158,Z04,Madhapur,Commercial_Residential,Burgers,0.414,424.31
+Z04_R159,Hyderabad Restaurant 159,Z04,Madhapur,Commercial_Residential,Healthy Food,0.688,314.11
+Z04_R160,Flavours Foods 160,Z04,Madhapur,Commercial_Residential,Fast Food,0.734,338.37
+Z04_R161,Grand Express 161,Z04,Madhapur,Commercial_Residential,Cafe,0.609,374.25
+Z04_R162,City Foods 162,Z04,Madhapur,Commercial_Residential,Chinese,0.694,311.82
+Z04_R163,Fresh Treats 163,Z04,Madhapur,Commercial_Residential,Desserts,0.704,126.68
+Z04_R164,Express Hub 164,Z04,Madhapur,Commercial_Residential,Bakery,0.744,259.63
+Z04_R165,Daily Point 165,Z04,Madhapur,Commercial_Residential,Desserts,0.334,331.49
+Z04_R166,Daily Express 166,Z04,Madhapur,Commercial_Residential,Biryani,0.309,519.29
+Z04_R167,Street Foods 167,Z04,Madhapur,Commercial_Residential,Bakery,0.965,105.42
+Z04_R168,Spice Kitchen 168,Z04,Madhapur,Commercial_Residential,North Indian,0.15,414.05
+Z04_R169,Royal Corner 169,Z04,Madhapur,Commercial_Residential,Fast Food,0.327,244.78
+Z04_R170,Home Foods 170,Z04,Madhapur,Commercial_Residential,Pizza,0.663,385.0
+Z04_R171,Flavours Foods 171,Z04,Madhapur,Commercial_Residential,Fast Food,0.669,338.0
+Z04_R172,Taste Kitchen 172,Z04,Madhapur,Commercial_Residential,Fast Food,0.789,358.73
+Z04_R173,Fresh Cafe 173,Z04,Madhapur,Commercial_Residential,Cafe,0.721,165.63
+Z04_R174,Street Kitchen 174,Z04,Madhapur,Commercial_Residential,Bakery,0.825,113.72
+Z04_R175,Royal Kitchen 175,Z04,Madhapur,Commercial_Residential,Biryani,0.342,533.37
+Z05_R176,Spice Corner 176,Z05,Kukatpally,Residential_Commercial,Healthy Food,0.094,245.71
+Z05_R177,Royal Corner 177,Z05,Kukatpally,Residential_Commercial,Bakery,0.814,122.88
+Z05_R178,Spice Express 178,Z05,Kukatpally,Residential_Commercial,Fast Food,0.455,341.72
+Z05_R179,Express House 179,Z05,Kukatpally,Residential_Commercial,Healthy Food,0.338,489.12
+Z05_R180,Urban Express 180,Z05,Kukatpally,Residential_Commercial,North Indian,0.834,440.47
+Z05_R181,Daily Treats 181,Z05,Kukatpally,Residential_Commercial,Biryani,0.401,526.53
+Z05_R182,Express Cafe 182,Z05,Kukatpally,Residential_Commercial,Burgers,0.39,287.1
+Z05_R183,Flavours Treats 183,Z05,Kukatpally,Residential_Commercial,South Indian,0.623,256.18
+Z05_R184,Kitchen Bites 184,Z05,Kukatpally,Residential_Commercial,Chinese,0.76,207.51
+Z05_R185,Urban Express 185,Z05,Kukatpally,Residential_Commercial,Bakery,0.61,220.08
+Z05_R186,Food Treats 186,Z05,Kukatpally,Residential_Commercial,Biryani,0.826,334.58
+Z05_R187,Street Restaurant 187,Z05,Kukatpally,Residential_Commercial,Pizza,0.28,277.58
+Z05_R188,Flavours Corner 188,Z05,Kukatpally,Residential_Commercial,Biryani,0.761,500.36
+Z05_R189,Fresh Treats 189,Z05,Kukatpally,Residential_Commercial,South Indian,0.831,219.71
+Z05_R190,Food Hub 190,Z05,Kukatpally,Residential_Commercial,Desserts,0.624,282.68
+Z05_R191,City Express 191,Z05,Kukatpally,Residential_Commercial,Cafe,0.667,439.64
+Z05_R192,Taste Foods 192,Z05,Kukatpally,Residential_Commercial,Cafe,0.289,382.39
+Z05_R193,Flavours Cafe 193,Z05,Kukatpally,Residential_Commercial,Healthy Food,0.965,280.52
+Z05_R194,Taste Cafe 194,Z05,Kukatpally,Residential_Commercial,South Indian,0.446,184.15
+Z05_R195,Street Foods 195,Z05,Kukatpally,Residential_Commercial,Desserts,0.497,251.07
+Z05_R196,Flavours Restaurant 196,Z05,Kukatpally,Residential_Commercial,Pizza,0.852,261.48
+Z05_R197,Fresh Bites 197,Z05,Kukatpally,Residential_Commercial,North Indian,0.384,311.64
+Z05_R198,Daily Bites 198,Z05,Kukatpally,Residential_Commercial,Pizza,0.599,361.86
+Z05_R199,Royal House 199,Z05,Kukatpally,Residential_Commercial,Cafe,0.315,153.05
+Z05_R200,Taste Point 200,Z05,Kukatpally,Residential_Commercial,Chinese,0.709,374.42
+Z05_R201,Street Corner 201,Z05,Kukatpally,Residential_Commercial,Chinese,0.838,366.46
+Z05_R202,Urban Bites 202,Z05,Kukatpally,Residential_Commercial,Desserts,0.303,302.37
+Z05_R203,Royal Bites 203,Z05,Kukatpally,Residential_Commercial,Chinese,0.186,289.19
+Z05_R204,Taste Point 204,Z05,Kukatpally,Residential_Commercial,Bakery,0.061,216.31
+Z05_R205,Express Point 205,Z05,Kukatpally,Residential_Commercial,Cafe,0.395,253.13
+Z05_R206,Taste Bites 206,Z05,Kukatpally,Residential_Commercial,Pizza,0.556,390.72
+Z05_R207,Urban Cafe 207,Z05,Kukatpally,Residential_Commercial,Fast Food,0.901,212.85
+Z05_R208,Grand Hub 208,Z05,Kukatpally,Residential_Commercial,Pizza,0.628,297.82
+Z05_R209,Taste Bites 209,Z05,Kukatpally,Residential_Commercial,Chinese,0.633,238.42
+Z05_R210,Grand Express 210,Z05,Kukatpally,Residential_Commercial,Healthy Food,0.78,492.98
+Z05_R211,Flavours Cafe 211,Z05,Kukatpally,Residential_Commercial,Fast Food,0.633,395.13
+Z05_R212,Spice Bites 212,Z05,Kukatpally,Residential_Commercial,Fast Food,0.439,206.87
+Z05_R213,Spice Bites 213,Z05,Kukatpally,Residential_Commercial,Biryani,0.462,453.65
+Z05_R214,Grand Bites 214,Z05,Kukatpally,Residential_Commercial,Biryani,0.772,541.52
+Z05_R215,Kitchen Corner 215,Z05,Kukatpally,Residential_Commercial,North Indian,0.763,352.22
+Z05_R216,Daily Bites 216,Z05,Kukatpally,Residential_Commercial,South Indian,0.23,320.73
+Z05_R217,Fresh Hub 217,Z05,Kukatpally,Residential_Commercial,Desserts,0.608,230.1
+Z05_R218,Flavours Corner 218,Z05,Kukatpally,Residential_Commercial,Biryani,0.438,303.32
+Z05_R219,Food Corner 219,Z05,Kukatpally,Residential_Commercial,South Indian,0.826,309.09
+Z05_R220,Street Kitchen 220,Z05,Kukatpally,Residential_Commercial,South Indian,0.291,252.71
