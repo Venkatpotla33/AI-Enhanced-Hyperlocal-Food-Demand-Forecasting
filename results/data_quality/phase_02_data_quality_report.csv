@@ -1,0 +1,9 @@
+Validation,Status
+Schema Validation,PASS
+Missing Value Validation,PASS
+Duplicate & Identifier Validation,PASS
+Timestamp Validation,PASS
+Value & Range Validation,PASS
+Referential Integrity,PASS
+Distribution Validation,PASS
+Statistical Summary,PASS
