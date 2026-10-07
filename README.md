@@ -1,39 +1,44 @@
-# AI-Enhanced Hyperlocal Food Demand Forecasting and Surge Intelligence
+# 🚀 AI-Enhanced Hyperlocal Food Demand Forecasting and Surge Intelligence
 
-## Project Title
+## 📌 Project Title
 
 **AI-Enhanced Hyperlocal Food Demand Forecasting and Surge Intelligence Using Machine Learning, Deep Learning, and Time-Series Foundation Models**
 
 ---
 
-## Overview
+## 🎯 Overview
 
 This project develops an AI-enhanced hyperlocal food demand forecasting system for food-delivery operations in Hyderabad, India.
 
 The system focuses on forecasting **hourly food-order demand at hyperlocal zone level** and identifying potential demand-surge conditions using historical demand patterns and contextual factors.
 
-The project compares multiple generations of forecasting approaches, including classical statistical models, machine learning models, deep learning models, and pretrained time-series foundation models.
+The project compares multiple generations of forecasting approaches, including:
+
+- Classical statistical models
+- Machine learning models
+- Deep learning models
+- Time-series foundation models
 
 An additional **AI Surge Intelligence Layer** is developed to interpret forecast outputs, identify potential demand surges, analyze contextual signals, and generate operational insights.
 
 ---
 
-## Research Problem
+## 🔬 Research Problem
 
-Food-delivery demand varies significantly across time and location. Hourly demand can be influenced by:
+Food-delivery demand varies significantly across time and location.
 
-- Time of day
-- Day of week
-- Weekdays and weekends
-- Seasonal patterns
-- Weather
-- Rainfall
-- Public holidays
-- Festivals
-- IPL matches
-- Local events
-- Sporting events
-- Zone-specific characteristics
+Hourly demand can be influenced by:
+
+- 🕐 Time of day
+- 📅 Day of week
+- 🗓️ Weekdays and weekends
+- 🌦️ Weather
+- 🌧️ Rainfall
+- 🎉 Public holidays and festivals
+- 🏏 IPL matches
+- 📍 Local events
+- 🏟️ Sporting events
+- 🏙️ Zone-specific characteristics
 
 Accurately forecasting demand at a hyperlocal level can help identify periods of potential demand-supply imbalance.
 
@@ -41,7 +46,7 @@ This project investigates whether different forecasting approaches can accuratel
 
 ---
 
-## Objectives
+## 🎯 Objectives
 
 ### Primary Objective
 
@@ -62,9 +67,9 @@ Develop an AI-enhanced hyperlocal food demand forecasting system capable of pred
 
 ---
 
-## Data Strategy
+## 📊 Data Strategy
 
-### Synthetic Order Data
+### 🧾 Synthetic Order Data
 
 The order dataset is synthetically generated for Hyderabad covering:
 
@@ -84,25 +89,21 @@ Instead, demand is generated using a stochastic framework incorporating:
 - Controlled demand spikes
 - Random/stochastic noise
 
-The generated transactions contain realistic timestamps and order-level attributes.
-
-The synthetic raw data subsequently undergoes data-quality validation, exploratory analysis, aggregation, and feature engineering.
-
-### Current Synthetic Dataset
-
-The current generated dataset contains:
+### 📈 Current Dataset
 
 | Component | Quantity |
 |---|---:|
-| Synthetic Transactions | 17,188,957 |
-| Customers | 50,000 |
-| Restaurants | 220 |
-| Hyperlocal Zones | 5 |
-| Study Period | Jan 2023 – Aug 2026 |
+| Synthetic Transactions | **17,188,957** |
+| Customers | **50,000** |
+| Restaurants | **220** |
+| Hyperlocal Zones | **5** |
+| Study Period | **Jan 2023 – Aug 2026** |
 
-The raw transaction dataset is maintained locally and is excluded from GitHub because of its large size.
+The raw transaction dataset is maintained locally and excluded from GitHub because of its large size.
 
-### Real Contextual Data
+---
+
+## 🌦️ Real Contextual Data
 
 Contextual datasets will be collected independently from authorized sources and APIs where available.
 
@@ -117,39 +118,35 @@ Planned contextual variables include:
 - Sporting events
 - Day-specific patterns
 
-The contextual datasets will be joined with the hourly demand dataset after independent collection and preprocessing.
-
-> **Research Design Note:** Synthetic food-order demand is generated independently of the later contextual datasets. This helps avoid circularity and prevents contextual variables from being directly embedded into the synthetic demand-generation process.
+> **Research Design:** Synthetic food-order demand is generated independently of the later contextual datasets to reduce circularity and avoid directly embedding future predictor variables into the synthetic demand-generation process.
 
 ---
 
-## Hyperlocal Zones
+## 📍 Hyperlocal Zones
 
-The study focuses on Hyderabad and divides the city into synthetic hyperlocal delivery zones.
+The current study uses five synthetic research zones in Hyderabad:
 
-The current zone configuration includes:
-
-- Z01 — Kondapur
-- Z02 — Hitech City
-- Z03 — Gachibowli
-- Z04 — Madhapur
-- Z05 — Kukatpally
+| Zone ID | Zone |
+|---|---|
+| Z01 | Kondapur |
+| Z02 | Hitech City |
+| Z03 | Gachibowli |
+| Z04 | Madhapur |
+| Z05 | Kukatpally |
 
 The zone configuration is maintained in:
 
-`config/zones.yaml`
+[`config/zones.yaml`](config/zones.yaml)
 
-These zones represent synthetic research regions rather than official administrative boundaries.
+> These zones represent synthetic research regions and do not represent official administrative or delivery boundaries.
 
 ---
 
-## Data Quality & Validation
+## ✅ Data Quality & Validation
 
 The generated transaction dataset has undergone structured data-quality and statistical validation.
 
-### Validation Results
-
-| Validation Area | Result |
+| Validation Area | Status |
 |---|---|
 | Schema Validation | ✅ PASS |
 | Missing Value Validation | ✅ PASS |
@@ -159,11 +156,11 @@ The generated transaction dataset has undergone structured data-quality and stat
 | Referential Integrity | ✅ PASS |
 | Distribution Validation | ✅ PASS |
 | Statistical Summary | ✅ PASS |
-| Overall Data Quality | ✅ PASS |
+| **Overall Data Quality** | **✅ PASS** |
 
 ### Dataset Integrity
 
-- **17,188,957** unique order records
+- **17,188,957** unique orders
 - **0** duplicate order IDs
 - **0** missing values
 - **0** invalid timestamps
@@ -173,15 +170,13 @@ The generated transaction dataset has undergone structured data-quality and stat
 - **220** unique restaurants
 - **5** hyperlocal zones
 
-The detailed data-quality analysis is documented in:
+Detailed validation is documented in:
 
-`notebooks/02_data_quality_analysis.ipynb`
+[`notebooks/02_data_quality_analysis.ipynb`](notebooks/02_data_quality_analysis.ipynb)
 
 ---
 
-## Research Methodology
-
-The overall project follows the pipeline:
+# 🧠 Research Methodology
 
 ```text
 Research Problem
