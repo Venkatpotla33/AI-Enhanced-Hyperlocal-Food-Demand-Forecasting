@@ -66,26 +66,41 @@ Develop an AI-enhanced hyperlocal food demand forecasting system capable of pred
 
 ### Synthetic Order Data
 
-The order dataset will be synthetically generated for Hyderabad covering:
+The order dataset is synthetically generated for Hyderabad covering:
 
 **January 2023 to August 2026**
 
-The synthetic order-generation framework will not rely on simple random order counts.
+The synthetic order-generation framework does not rely on simple random order counts.
 
-Instead, demand will be generated using a stochastic framework incorporating:
+Instead, demand is generated using a stochastic framework incorporating:
 
 - Baseline demand
 - Hourly seasonality
 - Weekly seasonality
 - Zone-specific demand patterns
 - Restaurant characteristics
+- Customer behavior
 - Seasonal variation
 - Controlled demand spikes
 - Random/stochastic noise
 
-The generated transactions will contain realistic timestamps and order-level attributes.
+The generated transactions contain realistic timestamps and order-level attributes.
 
-The synthetic raw data will subsequently undergo data cleaning, validation, exploratory analysis, aggregation, and feature engineering.
+The synthetic raw data subsequently undergoes data-quality validation, exploratory analysis, aggregation, and feature engineering.
+
+### Current Synthetic Dataset
+
+The current generated dataset contains:
+
+| Component | Quantity |
+|---|---:|
+| Synthetic Transactions | 17,188,957 |
+| Customers | 50,000 |
+| Restaurants | 220 |
+| Hyperlocal Zones | 5 |
+| Study Period | Jan 2023 – Aug 2026 |
+
+The raw transaction dataset is maintained locally and is excluded from GitHub because of its large size.
 
 ### Real Contextual Data
 
@@ -104,37 +119,101 @@ Planned contextual variables include:
 
 The contextual datasets will be joined with the hourly demand dataset after independent collection and preprocessing.
 
+> **Research Design Note:** Synthetic food-order demand is generated independently of the later contextual datasets. This helps avoid circularity and prevents contextual variables from being directly embedded into the synthetic demand-generation process.
+
 ---
 
 ## Hyperlocal Zones
 
 The study focuses on Hyderabad and divides the city into synthetic hyperlocal delivery zones.
 
-Example zones include:
+The current zone configuration includes:
 
-- Kondapur
-- Hitech City
-- Gachibowli
-- Madhapur
-- Kukatpally
+- Z01 — Kondapur
+- Z02 — Hitech City
+- Z03 — Gachibowli
+- Z04 — Madhapur
+- Z05 — Kukatpally
 
-The final zone configuration will be maintained in: [text](config/zones.yaml)
+The zone configuration is maintained in:
 
+`config/zones.yaml`
 
+These zones represent synthetic research regions rather than official administrative boundaries.
 
-## 📌 Project Development Progress
+---
 
-| Phase | Description | Status |
-|---|---|---|
-| Phase 01 | Project Framework & Repository Setup | ✅ Completed |
-| Phase 02 | Synthetic Raw Order Data Generation | 🟢 In Progress |
-| Phase 03 | Data Quality & Exploratory Analysis | ⏳ Upcoming |
-| Phase 04 | Contextual Data Collection & Integration | ⏳ Upcoming |
-| Phase 05 | Feature Engineering | ⏳ Upcoming |
-| Phase 06 | Forecasting Models | ⏳ Upcoming |
-| Phase 07 | Model Evaluation & Backtesting | ⏳ Upcoming |
-| Phase 08 | AI Surge Intelligence Layer | ⏳ Upcoming |
-| Phase 09 | Power BI Dashboard | ⏳ Upcoming |
-| Phase 10 | Streamlit Application | ⏳ Upcoming |
-| Phase 11 | Research Analysis & Conclusions | ⏳ Upcoming |
-| Phase 12 | Final Documentation | ⏳ Upcoming |
+## Data Quality & Validation
+
+The generated transaction dataset has undergone structured data-quality and statistical validation.
+
+### Validation Results
+
+| Validation Area | Result |
+|---|---|
+| Schema Validation | ✅ PASS |
+| Missing Value Validation | ✅ PASS |
+| Duplicate & Identifier Validation | ✅ PASS |
+| Timestamp Validation | ✅ PASS |
+| Value & Range Validation | ✅ PASS |
+| Referential Integrity | ✅ PASS |
+| Distribution Validation | ✅ PASS |
+| Statistical Summary | ✅ PASS |
+| Overall Data Quality | ✅ PASS |
+
+### Dataset Integrity
+
+- **17,188,957** unique order records
+- **0** duplicate order IDs
+- **0** missing values
+- **0** invalid timestamps
+- **0** customer-zone mismatches
+- **0** restaurant-zone mismatches
+- **50,000** unique customers
+- **220** unique restaurants
+- **5** hyperlocal zones
+
+The detailed data-quality analysis is documented in:
+
+`notebooks/02_data_quality_analysis.ipynb`
+
+---
+
+## Research Methodology
+
+The overall project follows the pipeline:
+
+```text
+Research Problem
+       ↓
+Literature Review
+       ↓
+Synthetic Order Data Generation
+       ↓
+Data Quality & Validation
+       ↓
+Exploratory Data Analysis
+       ↓
+Real Contextual Data Collection
+       ↓
+Contextual Data Integration
+       ↓
+Feature Engineering
+       ↓
+Hourly Zone-Level Demand Dataset
+       ↓
+Forecasting Models
+       ↓
+Rolling-Origin Backtesting
+       ↓
+Model Evaluation & Comparison
+       ↓
+Context Ablation Analysis
+       ↓
+AI Surge Intelligence Layer
+       ↓
+Power BI Dashboard
+       ↓
+Streamlit Application
+       ↓
+Research Analysis & Conclusions
