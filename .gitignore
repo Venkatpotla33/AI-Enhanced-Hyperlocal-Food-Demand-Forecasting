@@ -47,17 +47,19 @@ ENV/
 # Large / Generated Data
 # ==========================================
 
-data/raw/*
-data/interim/*
-data/processed/*
+data/raw/**
+data/interim/**
+data/processed/**
 
-# Keep raw-data directory structure
-!data/raw/*/
-!data/raw/*/.gitkeep
+# Keep directory structure
+!data/raw/**/
+!data/raw/**/.gitkeep
 
-# Keep interim and processed directory structure
-!data/interim/.gitkeep
-!data/processed/.gitkeep
+!data/interim/**/
+!data/interim/**/.gitkeep
+
+!data/processed/**/
+!data/processed/**/.gitkeep
 
 
 # ==========================================
