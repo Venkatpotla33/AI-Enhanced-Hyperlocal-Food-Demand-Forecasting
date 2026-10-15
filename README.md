@@ -176,13 +176,39 @@ Detailed validation is documented in:
 
 ---
 
+## 📊 Exploratory Data Analysis
+
+Phase 03 — Data Quality & Exploratory Analysis has been completed.
+
+The EDA covered transaction and order-value distributions, meal-period demand, hourly and daily patterns, weekday/weekend comparisons, weekly and monthly trends, zone-level demand and variability, autocorrelation, stationarity, seasonal decomposition, and hourly panel validation.
+
+Key findings from the synthetic dataset include:
+
+- **Peak demand hour:** 21:00
+- **Lowest-demand hour:** 03:00
+- **Lunch and dinner share:** Approximately 48.05% of transactions
+- **Weekend demand:** Approximately 13.8% higher average daily demand than weekdays
+- **Highest-demand zone:** Z02 — Hitech City
+- **Hourly observations:** 160,560 across five zones
+- **Hourly panel validation:** Passed, with no missing hourly intervals or duplicate zone-hour combinations in the complete-date panel
+
+The complete-date hourly panel covers January 1, 2023, through August 30, 2026. August 31, 2026, is excluded because it is an incomplete date.
+
+These findings describe the synthetic dataset and should not be interpreted as verified real-world Hyderabad food-delivery patterns.
+
+Detailed findings are documented in:
+
+[`docs/03_data_quality_and_exploratory_analysis.md`](docs/03_data_quality_and_exploratory_analysis.md)
+
+---
+
 ## 📌 Project Development Progress
 
 | Phase | Description | Status |
 |---|---|---|
 | Phase 01 | Project Framework & Repository Setup | ✅ Completed |
 | Phase 02 | Synthetic Raw Order Data Generation | ✅ Completed |
-| Phase 03 | Data Quality & Exploratory Analysis | 🔄 In Progress |
+| Phase 03 | Data Quality & Exploratory Analysis | ✅ Completed |
 | Phase 04 | Contextual Data Collection & Integration | ⏳ Upcoming |
 | Phase 05 | Feature Engineering | ⏳ Upcoming |
 | Phase 06 | Forecasting Models | ⏳ Upcoming |
