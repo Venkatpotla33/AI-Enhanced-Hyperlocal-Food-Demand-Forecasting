@@ -1,0 +1,72 @@
+{
+    "provider": "Open-Meteo",
+    "api_endpoint": "https://archive-api.open-meteo.com/v1/archive",
+    "retrieval_timestamp_utc": "2026-10-25T13:05:00.744400+00:00",
+    "requested_location": {
+        "latitude": 17.4578,
+        "longitude": 78.3742
+    },
+    "returned_location": {
+        "returned_latitude": 17.469244,
+        "returned_longitude": 78.35907,
+        "elevation_m": 587.0,
+        "timezone": "Asia/Kolkata",
+        "timezone_abbreviation": "GMT+5:30",
+        "utc_offset_seconds": 19800
+    },
+    "timezone": "Asia/Kolkata",
+    "start_date": "2023-01-01",
+    "end_date": "2026-07-31",
+    "temporal_resolution": "Hourly",
+    "expected_record_count": 31392,
+    "record_count": 31392,
+    "unique_timestamp_count": 31392,
+    "duplicate_timestamp_count": 0,
+    "missing_timestamp_count": 0,
+    "unexpected_timestamp_count": 0,
+    "missing_values_by_variable": {
+        "temperature_2m": 0,
+        "relative_humidity_2m": 0,
+        "apparent_temperature": 0,
+        "precipitation": 0,
+        "rain": 0,
+        "wind_speed_10m": 0,
+        "wind_direction_10m": 0,
+        "wind_gusts_10m": 0,
+        "cloud_cover": 0,
+        "surface_pressure": 0,
+        "dew_point_2m": 0
+    },
+    "variables": [
+        "temperature_2m",
+        "relative_humidity_2m",
+        "apparent_temperature",
+        "precipitation",
+        "rain",
+        "wind_speed_10m",
+        "wind_direction_10m",
+        "wind_gusts_10m",
+        "cloud_cover",
+        "surface_pressure",
+        "dew_point_2m"
+    ],
+    "units": {
+        "temperature_2m": "\u00b0C",
+        "relative_humidity_2m": "%",
+        "apparent_temperature": "\u00b0C",
+        "precipitation": "mm",
+        "rain": "mm",
+        "wind_speed_10m": "km/h",
+        "wind_direction_10m": "degrees",
+        "wind_gusts_10m": "km/h",
+        "cloud_cover": "%",
+        "surface_pressure": "hPa",
+        "dew_point_2m": "\u00b0C"
+    },
+    "limitations": [
+        "Weather data represent a selected grid location.",
+        "Historical weather estimates are not archived forecasts.",
+        "Returned coordinates may differ from requested coordinates."
+    ],
+    "source_documentation": "https://open-meteo.com/en/docs/historical-weather-api"
+}
