@@ -1,0 +1,42 @@
+{
+  "dataset_name": "Telangana Calendar Holidays 2023-2026",
+  "collection_timestamp_utc": "2026-10-27T06:13:28.130314+00:00",
+  "geographic_scope": "Telangana, India",
+  "coverage_start": "2023-01-01",
+  "coverage_end": "2026-12-31",
+  "record_count": 205,
+  "records_by_year": {
+    "2023": 52,
+    "2024": 52,
+    "2025": 49,
+    "2026": 52
+  },
+  "source_urls": [
+    "https://www.telangana.gov.in/Downloads/calendar-2023/",
+    "https://www.telangana.gov.in/downloads/calendar-2025/",
+    "https://www.telangana.gov.in/downloads/calendar-2026/",
+    "https://www.telangana.gov.in/downloads/calendar/"
+  ],
+  "collection_method": "HTML extraction from official Telangana State Portal calendar pages.",
+  "columns": [
+    "date",
+    "year",
+    "holiday_name",
+    "calendar_class",
+    "source_table",
+    "source_url"
+  ],
+  "classification_handling": "Original HTML classes are retained as published. The values 'fix' and 'opt' have not been independently verified as legal holiday classifications.",
+  "validation": {
+    "missing_dates": 0,
+    "missing_holiday_names": 0,
+    "duplicate_date_name_records": 0,
+    "independent_2025_extraction_agreement": true
+  },
+  "limitations": [
+    "Agreement between two extraction methods does not independently establish source completeness.",
+    "Independent verification against government holiday orders remains pending.",
+    "The 2025 calendar has 49 extracted records; the difference from other years has not been independently explained.",
+    "The original HTML classification labels have not been independently verified against legal notifications."
+  ]
+}
